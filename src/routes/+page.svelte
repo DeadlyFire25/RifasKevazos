@@ -15,7 +15,8 @@
       <h2 class="text-2xl md:text-4xl font-bold mb-2">PARTICIPA Y GANA</h2>
       <p class="text-lg md:text-2xl font-bold mb-2">SORTEOS ENTRE AMIGOS EN BASE A LA LOTERIA NACIONAL</p>
       <p class="text-md md:text-xl mb-4">¡ARRIESGA POCO Y GANA MUCHO!</p>
-      <a class="bg-secondary px-8 py-1 rounded-2xl text-lg" href="/">Ver boletos</a>
+      <a class="bg-secondary px-8 py-1 my-8 rounded-2xl text-lg" href="/">Ver boletos</a>
+      <a class="bg-secondary px-8 py-1 rounded-2xl text-lg" href="/home">Ver sorteos valorant</a>
     </div>
   </div>
 </main>

@@ -4,6 +4,12 @@
 </svelte:head>
 
 <main class="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-blue-900">
+    <script>
+        handleLogin = () => {
+            // Aquí puedes implementar la lógica de inicio de sesión
+            window.location.href = '/'; // Redirige al usuario a la página de inicio de sesión
+        };
+    </script>
     <!-- Header -->
     <header class="relative z-10 px-6 py-4">
         <nav class="flex items-center justify-between max-w-7xl mx-auto">
@@ -16,7 +22,7 @@
             <div class="hidden md:flex items-center space-x-6">
                 <a href="#rifas" class="text-gray-300 hover:text-white transition-colors">Rifas Activas</a>
                 <a href="#como-participar" class="text-gray-300 hover:text-white transition-colors">Cómo Participar</a>
-                <button class="bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-2 rounded-lg font-semibold hover:from-red-600 hover:to-pink-600 transition-all">
+                <button on:click={handleLogin} class="bg-gradient-to-r from-red-500 to-pink-500 text-white px-6 py-2 rounded-lg font-semibold hover:from-red-600 hover:to-pink-600 transition-all">
                     Ingresar
                 </button>
             </div>
